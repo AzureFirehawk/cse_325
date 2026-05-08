@@ -1,0 +1,68 @@
+Create web API existing and additional (GET response):
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Fri, 08 May 2026 15:06:23 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+  {
+    "id": 1,
+    "name": "Classic Italian",
+    "isGlutenFree": false
+  },
+  {
+    "id": 2,
+    "name": "Veggie",
+    "isGlutenFree": true
+  },
+  {
+    "id": 3,
+    "name": "Meat Lovers",
+    "isGlutenFree": false
+  }
+]
+
+
+
+Sales summary function:
+void GenerateSalesReport(IEnumerable<string> salesFiles, string outputDirectory, string storesDirectory)
+{
+  double salesTotal = 0;
+
+  string reportText = "Sales Summary" + Environment.NewLine;
+  reportText += "----------------------------" + Environment.NewLine;
+
+  List<string> details = new List<string>();
+
+  foreach (var file in salesFiles)
+  {
+    string salesJson = File.ReadAllText(file);
+
+    SalesData? data = JsonConvert.DeserializeObject<SalesData?>(salesJson);
+
+    double fileTotal = data?.Total ?? data?.OverallTotal ?? 0;
+
+    salesTotal += fileTotal;
+
+    string fileName = Path.GetRelativePath(storesDirectory, file);
+
+    details.Add($"{fileName}: {fileTotal:C}");
+  }
+
+  reportText += $"Total Sales: {salesTotal:C}" + Environment.NewLine + Environment.NewLine;
+
+  reportText += "Details:" + Environment.NewLine;
+
+  foreach (var detail in details)
+  {
+    reportText += detail + Environment.NewLine;
+  }
+
+  File.WriteAllText(
+    Path.Combine(outputDirectory, "sales-summary.txt"),
+    reportText
+  );
+}
