@@ -1,0 +1,14 @@
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\bin\Release\net10.0\DotNetDebugging.exe
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\bin\Release\net10.0\DotNetDebugging.deps.json
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\bin\Release\net10.0\DotNetDebugging.runtimeconfig.json
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\bin\Release\net10.0\DotNetDebugging.dll
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\bin\Release\net10.0\DotNetDebugging.pdb
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\DotNetDebugging.GeneratedMSBuildEditorConfig.editorconfig
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\DotNetDebugging.AssemblyInfoInputs.cache
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\DotNetDebugging.AssemblyInfo.cs
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\DotNetDebugging.csproj.CoreCompileInputs.cache
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\DotNetDebugging.dll
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\refint\DotNetDebugging.dll
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\DotNetDebugging.pdb
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\DotNetDebugging.genruntimeconfig.cache
+G:\BYU-Idaho Classwork\CSE 325 .NET Software Development\DotNetDebugging\obj\Release\net10.0\ref\DotNetDebugging.dll
